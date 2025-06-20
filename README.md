@@ -45,7 +45,7 @@ AES keys (and IVs if available.)**
 
 ----------------------------------------------------------------------
 # **License**:
-
+[BSD](https://github.com/Ragekill3377/AES-Dumper-Darwin/blob/main/LICENSE)
 ----------------------------------------------------------------------
 # **Disclaimer**:
 ```
