@@ -3,15 +3,14 @@
 --------------------------------------------------------------------
 This program aims to demonstrate how attackers could extract AES
 Keys at runtime, even if you wipe the keys or obfuscate them.
-This is a PoC, not yet tested.
---------------------------------------------------------------------
-Do not use this for malicious purposes.
-Educational Purposes only.
+This is a PoC, not yet tested. 
+
 --------------------------------------------------------------------
 This tool also uses fishhook by @facebook for hooking purposes.
 Instead of scanning over the memory and looking for wildcards,
 this utility **directly hooks the CommonCryptor functions to extract
 AES keys (and IVs if available.)**
+
 --------------------------------------------------------------------
 
 # **Relevant Docs**:
