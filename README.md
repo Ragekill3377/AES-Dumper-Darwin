@@ -4,6 +4,7 @@
 This program aims to demonstrate how attackers could extract AES
 Keys at runtime, even if you wipe the keys or obfuscate them.
 This is a PoC, not yet tested. 
+The point of this is to demonstrate that once an attacker can load their code into your process, they own you.
 
 --------------------------------------------------------------------
 This tool also uses fishhook by @facebook for hooking purposes.
