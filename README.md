@@ -1,4 +1,4 @@
-# **AES-Dumper-Darwin** <-> **A.D.D**
+# **AES-Dumper-Darwin** -> **A.D.D**
 
 --------------------------------------------------------------------
 This program aims to demonstrate how attackers could extract AES
@@ -41,6 +41,8 @@ AES keys (and IVs if available.)**
 * Randomly generated keys **WILL** get caught too
 * AES-CBC, AES-ECB, AES-CTR, AES-GCM etc. **WILL** be intercepted
 * Tweaked AES modes **DO NOT** offer any advantage.
+* "B-But I wrote it i-in S-Swift!" That's just a wrapper for the C functions. CommonCrypto is in C. This **WILL NOT** help.
+
 ----------------------------------------------------------------------
 # **License**:
 
